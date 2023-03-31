@@ -135,15 +135,26 @@ img {
         width:90vw;
     }
  }
+
+/* Tablet size 768pix max */
+
 @media screen and (max-width:768px){
     .container{
         width: 100vw;
     }
+}
 
-    .why-us .row{
-        gap: 2rem;
+/* Mobile size 480px max */
+
+@media screen and (max-width:480px){
+    html{
+        font-size: 1.2rem;
     }
-    .steps .col:nth-child(2){
-        padding: 0 1rem;
+    .lessons .row, .steps .row, .why-us .row{
+        display: block;
+    }
+    .lessons .col, .steps .col, .why-us .col{
+        width: auto;
+        margin-top: 3rem;
     }
 }

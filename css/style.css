@@ -150,7 +150,7 @@ img {
     html{
         font-size: 1.2rem;
     }
-    .lessons .row, .steps .row, .why-us .row{
+    .row{
         display: block;
     }
     .lessons .col, .steps .col, .why-us .col{

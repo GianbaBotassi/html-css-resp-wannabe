@@ -157,4 +157,15 @@ img {
         width: auto;
         margin-top: 3rem;
     }
+    .why-us{
+        background-color: #222222;
+        padding:3rem 0;
+        margin-bottom: 0;
+    }
+    .steps{
+        margin: 3rem 0 0;
+    }
+    .why-us li{
+        margin-bottom: 0;
+    }
 }
